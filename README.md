@@ -10,4 +10,5 @@ A very customisable widget based start page browser extension/website.
 ## Download
 |Firefox|Chrome|Edge|
 |---|---|---|
-|Coming Soon|Coming Soon|Coming Soon|
+|<p align="center"><a href="https://addons.mozilla.org/en-GB/firefox/addon/cobalt-start/" ><img src="https://cobaltstart.pages.dev/assets/icons/firefox_64x64.png"></a></p>|||
+|[Download](https://addons.mozilla.org/en-GB/firefox/addon/cobalt-start/)|Coming Soon|Coming Soon|
