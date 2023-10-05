@@ -9,7 +9,6 @@ There should be 3 files in the folder:
 
 "translations.json" - This is the main locales file.
                     - Delete the first line "cobalt_version". (It will default back to the 'en' locale).
-                    - Just the part after the ':' needs translating.
                     - Copying chunks of this json file into chatGPT is a quick way to translate in one go, but please double check to make sure it translated correctly, and that it kept the locale IDs intact.
 
 
