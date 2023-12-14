@@ -1,11 +1,8 @@
 Duplicate the 'en' folder and name it with the new language 2 letter language code.
 
-There should be 3 files in the folder:
+There should be 2 files in the folder:
 
-"messages.json"     - This contains locales for the addon store page. Only "appDesc" needs to be translated.
-
-"translations.js"   - This contains the day and month translations for the clock widget.
-                    - Please replace the 2 letter language code in the variable names as well.
+"messages.json"     - This contains locales for the addon store page.
 
 "translations.json" - This is the main locales file.
                     - Delete the first line "cobalt_version". (It will default back to the 'en' locale).
