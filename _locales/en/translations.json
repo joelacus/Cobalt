@@ -1,5 +1,5 @@
 {
-	"cobalt_version": "0.10.0",
+	"cobalt_version": "0.10.2",
 	"AbbreviatedDay": "Day",
 	"AbbreviatedHour": "Hour",
 	"AbbreviatedMinute": "Min",
@@ -226,6 +226,7 @@
 	"PersistentSwitcher": "Always Show Workspace Switcher",
 	"Photo": "Photo",
 	"Platforms": "Platforms",
+	"PlatformsDescription": "Cobalt is available on Chrome, Firefox, Edge, and as a stand alone website.",
 	"Position": "Position",
 	"PostBackground": "Post Background",
 	"PostDate": "Post Date",
@@ -324,6 +325,7 @@
 	"UniformBookmarksInfo": "Apply name and icon properties to all bookmarks in the group.",
 	"UniformBookmarkStyles": "Uniform Bookmark Styles",
 	"Units": "Units",
+	"Upload": "Upload",
 	"UploadBackupFile": "Upload Backup File",
 	"UppercaseText": "Uppercase Text",
 	"UsePresetBackground": "Use The Preset Background",
@@ -332,6 +334,8 @@
 
 	"Weather": "Weather",
 	"WeatherDetails": "Weather Details",
+	"WebsiteBookmarkName": "Website/Bookmark Name",
+	"WebsiteLink": "Website Link",
 	"Widget": "Widget",
 	"WidgetAlignGuide": "Widget Align Guide",
 	"WidgetBlurInfo": "Blur may not be supported in some browsers",
