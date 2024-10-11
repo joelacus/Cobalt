@@ -1,5 +1,5 @@
 {
-	"cobalt_version": "0.10.2",
+	"cobalt_version": "0.10.3",
 	"AbbreviatedDay": "Day",
 	"AbbreviatedHour": "Hour",
 	"AbbreviatedMinute": "Min",
@@ -142,6 +142,10 @@
 	"General": "General",
 	"GetCurrentLocation": "Get Current Location",
 	"GetTheBrowserExtension": "Get the browser extension",
+	"GoodAfternoon": "Good Afternoon",
+	"GoodEvening": "Good Evening",
+	"GoodMorning": "Good Morning",
+	"Goodnight": "Goodnight",
 	"GoogleFont": "Google Font",
 	"GradientEffect": "Gradient Effect",
 	"Greeting": "Greeting",
