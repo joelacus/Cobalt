@@ -1,0 +1,130 @@
+version 0.11.0
+- To comply with Google policy for Chrome users, the "search" permission is now required, and the search bar must use the search engine set within the browser settings.
+- Added Bing, Yahoo, Ecosia, Wikipedia, and Ask search engines for Firefox, Edge, and the website version of Cobalt. (Chrome users must set their preferred engine in the browser settings).
+- The search bar can now act as a basic calculator.
+- The search bar can now convert different colour formats (hex, rgb, hsl, cmyk) and show a preview of the colour. Type "colour" (in a supported language) and then the colour code to convert from. For example, "colour #227eff".
+- Added an option for the search bar widget to open searches in a new tab.
+- Added an option to change the placeholder text for the search bar widget.
+- The extension will now check for updates and show a notification if one is available (checks when entering edit mode). Useful if automatic extension updates are not enabled in the browser.
+- Fixed a bug preventing some RSS feeds from working.
+
+version 0.10.3
+- Fixed a bug preventing some workspaces from saving.
+- Added localisations for the Greeting widget auto option, "Good Morning" etc.
+- Other small bug fixes and improvements.
+
+version 0.10.2
+- Fixed a bug with custom widget fonts.
+- Added Arabic localisation (credit @ahmadjerjawi).
+
+version 0.10.1
+- Fixed a permission error.
+
+version 0.10.0
+- Added an option for bookmarks to use the website favicon as the icon.
+- Added buttons to individually apply the selected widget's font style, text colour, weight, size and align to all widgets.
+- Added a scale option for the "Name and Icon Transform" on bookmarks.
+- The bookmark option "Name and Icon Position" is now available for Bookmark Group bookmarks.
+- Fixed a bug where the clock text colour could not be changed.
+- Fixed a bug where the clock text shadow could not be removed.
+- Fixed a bug causing the Bookmark Group widget to show groups as tabs if you added, moved or deleted a group and the "Show Groups as Tabs" option was not enabled.
+- Newly added groups will inherit the Bookmark Group widget text style instantly, instead of when you refresh the page.
+- Tasks marked as "done" will appear slightly darker (if they have a colour) to make them easier to distinguish.
+- Fixed a bug causing the "To-Do List" task timestamps to not restore and save.
+- Newly added tasks in the "To-Do List" widget will instantly inherit the task background colour and will no longer break the colours for the other tasks when you refresh the page.
+- Added Swedish localisations.
+- Cleaned up and improved some code.
+- Updated dependencies.
+c
+version 0.9.1
+- French localisation improvements (credit Cypoun).
+- Disabled the ability to highlight some UI text for a better user experience.
+- Minor weather widget UI improvements.
+- Fixed a bug where the weather details section wouldn't show in the widget if you selected a new location.
+- Fixed a bug causing the widget shadow strength to not apply.
+- Updated dependencies.
+
+version 0.9.0
+- Added an option to show bookmark groups as tabs.
+- Fixed a couple bugs for the Bookmark Group widget where the "Display" and "Show Header" options did not work.
+- Updated dependencies.
+
+version 0.8.1
+- The "tabs" permission is no longer required and has been removed.
+- Bug fix.
+
+version 0.8.0
+- Added an option to change the weather visibility unit to Metres, Kilometres, Feet or Miles.
+- Added an option to disable the forced 'https://' prefix when adding bookmarks.
+- Updated dependencies.
+
+version 0.7.0
+- Added an option to play a custom start sound when the page loads. (Settings > General > Page/Tab > Start Sound).
+- Added an option to adjust the edge offset for the settings, workspace and lock screen buttons. (Settings > General > Button Offset).
+- Added an option to edit the header title for the To-Do List and Notes widgets.
+- Updated the RSS widget:
+	- Feed buttons display the feed name and have been moved into a popover menu.
+	- Adding and editing feeds has been moved into the widget editor.
+	- Feeds can be renamed and reordered.
+	- Added an option to hide the post category.
+	- Added an option to hide the post author.
+	- Added an option to prefer showing post content over a description, if available.
+	- Clicking on the feed item background will now also expand the content.
+- Updated the Weather widget:
+	- Weather details can be disabled individually and reordered.
+	- Added an option to enable a weather forecast for the week.
+- Added Italian localisations.
+- Added missing localisations.
+- Bug fixes and improvements.
+
+version 0.6.1
+- Bug fixes.
+- Updated dependencies.
+
+version 0.6.0
+- Various optimisations resulting in up to 5x faster page loading.
+- Drag and drop new widgets from the menu to the grid.
+- Adding widgets via a click will now place the widget in the next available space on the grid, and won't distrupt existing widgets.
+- Redesigned the Timer widget, and added a stopwatch mode.
+- Internet search can now provide search suggestions. (extension only).
+- Added completion percentage and a progress bar to the To-Do List widget.
+- Added a "Clear" button to the To-Do List widget to clear all completed items.
+- To-Do List widget now remembers which filter mode is selected (done/not done).
+- Bookmark Group widget can now filter by bookmark url, as well as by name.
+- Added an option to enter edit mode by clicking and holding on a widget (enabled by default).
+- Added an option to the lock the screen automatically when the page loads, if lockscreen is enabled.
+- Added an option to clone the current workspace.
+- Browser Sync now shows how much data is being used.
+- Changelog can now be viewed from the About section in settings.
+- Added minimum and maximum sizes to some widgets.
+- Optimised the geolocation dataset for the Weather widget.
+- Duplicate place names in the weather location search will now show the state and county (if applicable) to differentiate the places.
+- Added Portuguese localisations.
+- Updated French localisations.
+- Fixed a bug in backup/restore from clipboard.
+- Started transitioning some elements to use Bootstrap.
+- Improved range sliders, modals, and other UI elements.
+- Bug fixes and improvements.
+
+version 0.5.0
+- RSS item content is now collapsible.
+- Bug fixes and improvements.
+
+version 0.4.1
+- Bug fix
+
+version 0.4.0
+- Optimised browser sync and added compression.
+- Added a default favicon, and an option to disable the favicon.
+- Bug fixes and improvements
+
+version 0.3.7
+- Bug fixes and improvements.
+
+version 0.3.6
+- Added temperature, wind speed and precipitation unit options for the weather widget.
+- Added a border around widgets while in edit mode to show their size.
+- Bug fixes and improvements.
+
+version 0.3.5
+- Bug fixes and improvements.
