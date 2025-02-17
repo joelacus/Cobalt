@@ -1,3 +1,8 @@
+version 0.11.1
+- Fixed an issue with bookmark favicons.
+- Text from the maths and colour conversion results from the search bar are now selectable.
+- Updated dependencies.
+
 version 0.11.0
 - To comply with Google policy for Chrome users, the "search" permission is now required, and the search bar must use the search engine set within the browser settings.
 - Added Bing, Yahoo, Ecosia, Wikipedia, and Ask search engines for Firefox, Edge, and the website version of Cobalt. (Chrome users must set their preferred engine in the browser settings).
