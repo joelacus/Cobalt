@@ -5,7 +5,7 @@ There should be 2 files in the folder:
 "messages.json"     - This contains locales for the addon store page.
 
 "translations.json" - This is the main locales file.
-                    - Delete the first line "cobalt_version". (It will default back to the 'en' locale).
+                    - Delete the first line "_cobalt_version_". (It will default back to the 'en' locale).
                     - Copying chunks of this json file into chatGPT is a quick way to translate in one go, but please double check to make sure it translated correctly, and that it kept the locale IDs intact.
 
 
